@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>姚锦涛 - 个人主页</title>
+    <meta name="description" content="嵌入式系统 | 智能驾驶应用 | 西南交通大学">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <main class="page-content">
+        <div class="container">
+            <!-- 个人信息头部 -->
+            <div class="profile-header">
+                <table class="profile-table">
+                    <tr>
+                        <td class="profile-info">
+                            <h1 class="name">姚锦涛</h1>
+                            <div class="badges">
+                                <img src="https://img.shields.io/badge/%F0%9F%8E%93-西南交大%2F智能控制-blue?style=flat-square" alt="学生徽章">
+                                <img src="https://img.shields.io/badge/%F0%9F%90%A7-Linux%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91-green?style=flat-square" alt="Linux徽章">
+                                <img src="https://img.shields.io/badge/%F0%9F%92%BB-%E5%B5%8C%E5%85%A5%E5%BC%8F%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B%E5%B8%88-orange?style=flat-square" alt="工程师徽章">
+                                <img src="https://img.shields.io/badge/%F0%9F%93%8A-C%2FC%2B%2B%20%7C%20Python%20%7C%20Shell%20%7C%20Vibe%20Coding-purple?style=flat-square" alt="技能徽章">
+                                <img src="https://img.shields.io/badge/%F0%9F%94%97-%E5%88%86%E5%B8%83%E5%BC%8F%E4%B8%AD%E9%97%B4%E4%BB%B6%E4%B8%8E%E5%BA%94%E7%94%A8%E5%BC%80%E5%8F%91-red?style=flat-square" alt="ROS徽章">
+                                <img src="https://img.shields.io/badge/%F0%9F%A4%96-RoboMaster%2F%E6%99%BA%E8%83%BD%E8%BD%A6-yellow?style=flat-square" alt="竞赛徽章">
+                            </div>
+
+                            <div class="status-updates">
+                                <p style="color: #3498db; margin: 0.3rem 0; font-size: 0.95rem;">🎓 西南交通大学 · 电气工程与智能控制（本科）</p>
+                                <p style="color: #3498db; margin: 0.3rem 0; font-size: 0.95rem;">🚗 卓驭科技（原大疆车载）· 智驾应用软件开发工程师、模块负责人</p>
+                                <p style="color: #3498db; margin: 0.3rem 0; font-size: 0.95rem;">🚀 专注于嵌入式系统、分布式中间件与应用层开发</p>
+                            </div>
+
+                            <div class="contact-links" style="display: flex; align-items: center; gap: 0.5rem;">
+                                <a href="mailto:yaojt660@gmail.com" title="邮箱" style="display: inline-flex; align-items: center; font-size: 20px;">✉️</a>
+                                <a href="https://github.com/Yaojintao2003" title="GitHub" target="_blank" rel="noreferrer" style="display: inline-flex; align-items: center;">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                                    </svg>
+                                </a>
+                                <a href="javascript:void(0)" title="微信" onclick="openWechatModal()" style="display: inline-flex; align-items: center;">
+                                    <img src="./assets/images/wechat.png" alt="微信" width="20" height="20">
+                                </a>
+                                <a href="./Resume.pdf" title="简历 PDF" target="_blank" rel="noreferrer" style="display: inline-flex; align-items: center;">📄</a>
+                            </div>
+                        </td>
+                        <td class="profile-avatar">
+                            <img src="./assets/images/avatar.jpg" alt="姚锦涛" class="avatar-img">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <!-- 个人简介 -->
+            <div class="biography" style="margin-top: 2rem;">
+                <h2 class="section-title">关于我</h2>
+                <p>
+                    你好，我是<strong>姚锦涛</strong>，西南交通大学电气工程与智能控制专业本科生，
+                    曾任校电子科技协会会长。我的职业方向专注于嵌入式系统与智能驾驶应用软件开发。
+                </p>
+                <p>
+                    大学期间，我参加了多项竞赛与创新项目，积累了 STM32、英飞凌 TC264、海思 Hi3516 等平台的开发经验。
+                    曾获 <strong>RoboMaster 全国一等奖</strong>、<strong>全国大学生智能汽车竞赛全国二等奖</strong> 等多项省部级以上奖项。
+                </p>
+                <p>
+                    我曾在大疆车载实习，担任嵌入式软件开发工程师，参与多款车型功能 BringUp、
+                    车载通信协议适配与量产支持；排查字节对齐、枚举差异、编译优化等底层问题；
+                    并运用 C++ 面向对象、多线程、动态内存等技术开发可视化日志工具下位机接口。
+                </p>
+                <p>
+                    目前我在<strong>卓驭科技</strong>担任智驾应用软件开发工程师、模块负责人，
+                    负责 6 款平台车、4 个 OEM 项目的智能泊车应用开发工作。
+                </p>
+                <p>
+                    我热衷于从硬件到软件的全栈工程实践，擅长大型项目迭代、重构、测试体系建设，
+                    以及智能驾驶应用的多仓库 AI 原生化改造。
+                </p>
+            </div>
+
+            <!-- 教育背景 -->
+            <section class="education">
+                <h2 class="section-title">教育背景</h2>
+
+                <div class="education-item">
+                    <table class="institution-table work-table">
+                        <tr>
+                            <td class="institution-logo">
+                                <img src="./assets/images/swjtu-logo.png" alt="西南交大校徽" class="logo-img">
+                            </td>
+                            <td class="institution-info">
+                                <h3><strong>西南交通大学（211 / 双一流）</strong></h3>
+                                <h4><strong>电气工程学院</strong></h4>
+                                <p>电气工程与智能控制 · 本科<br>
+                                    2021.09 - 2025.06（预计）</p>
+                                <p><em>校电子科技协会会长（2023.09 - 2024.06）</em></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 工作经历 -->
+            <section class="research">
+                <h2 class="section-title">工作经历</h2>
+
+                <!-- 卓驭科技 -->
+                <div class="research-item">
+                    <table class="institution-table work-table">
+                        <tr>
+                            <td class="institution-logo">
+                                <img src="./assets/images/zyt_log.jpg" alt="卓驭科技 Logo" class="logo-img" onerror="this.style.display='none'">
+                            </td>
+                            <td class="institution-info">
+                                <h3><strong>卓驭科技</strong></h3>
+                                <p><strong>智驾应用软件开发工程师、模块负责人</strong><br>
+                                    <em>智能泊车应用开发、项目重构、测试体系建设</em><br>
+                                    2025.06 - 至今</p>
+                                <ul>
+                                    <li><strong>平台新功能开发与项目迭代支持：</strong>核心业务智驾泊车应用层开发，完成自动泊入、自动泊出、遥控泊车模块的重构与迭代维护（同时负责 6 款平台车，支持 4 个 OEM 项目多款车型），落地一键泊车、控制原子能力等新功能。</li>
+                                    <li><strong>智驾应用层软件重构：</strong>参与 50 人级大型车载软件项目的版本迭代与软件重构，熟练掌握复杂车载软件的配置管理、增量迭代、版本发布及接口解耦、锁定边界、内部迭代策略。</li>
+                                    <li><strong>泊车应用层数据回灌能力建设：</strong>针对 C/C++ 软件，熟悉dji_bag（ros_bag）中间件数据回灌工具，攻克时间同步、信号时序错乱等核心问题，自主设计实现回灌场景下 Service 通信应答回复功能；针对 MBD 模型，实现日志转 CSV、适配 Matlab 数据导入方案，完成 Simulink 模型数据在环仿真落地，全方位提升泊车应用层开发效率与交付质量。</li>
+                                    <li><strong>参与自动测试与评测体系搭建：</strong>基于公司自动测试平台和数据闭环基础，适配搭建应用层软件自动测试及评测体系；熟悉数据资产采集、回传、质检、标注、上树、多容器动态调度、按需分配资源等流程；编写脚本对自动回灌测试生成的日志进行标注评测打分并回传至评测系统生成报告，该体系作为 PR 合入的<strong>门禁系统</strong>，降低实车测试资源耗费，提升代码合入质量。</li>
+                                    <li><strong>智驾应用多仓库 AI 原生化改造：</strong>基于平台、项目、协议、MBD 等多仓开发现状，搭建多仓 Agent 工程辅助体系，统一多平台服务上下文入口；依托 Graphify 构建跨仓代码调用图谱，完善状态监控、Git 钩子标记及自动重建能力，实现代码变更影响范围快速定位；基于图谱搭建面向 Agent 的问题排查工具链与知识沉淀体系，覆盖泊车、行车、主动安全多业务场景，有效提升智驾项目问题复盘与经验复用效率。</li>
+                                    <li><strong>荣誉：</strong>获 <strong>"提效能手"</strong> 与 <strong>"王牌攻坚团队"</strong> 称号。</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                    <div style="margin-top:1rem; display:flex; gap:10px; justify-content:center; align-items:stretch;">
+                        <img src="./assets/images/自动泊车.gif" alt="自动泊车演示" style="height:220px; width:auto; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px #eee;">
+                        <img src="./assets/images/zyt奖项.jpg" alt="卓驭科技奖项" style="height:220px; width:auto; object-fit:cover; border-radius:8px; box-shadow:0 2px 8px #eee;">
+                    </div>
+                </div>
+
+                <!-- 大疆车载 -->
+                <div class="research-item">
+                    <table class="institution-table work-table">
+                        <tr>
+                            <td class="institution-logo">
+                                <img src="./assets/images/dji_log.jpg" alt="大疆车载 Logo" class="logo-img" onerror="this.style.display='none'">
+                            </td>
+                            <td class="institution-info">
+                                <h3><strong>大疆车载（DJI Automotive）</strong></h3>
+                                <p><strong>嵌入式软件开发工程师（实习）</strong><br>
+                                    <em>多车型功能 BringUp、车载通信协议适配、量产支持</em><br>
+                                    2024.07 - 2025.03</p>
+                                <ul>
+                                    <li><strong>功能 BringUp：</strong>完成多款车型功能 BringUp，参与从开发到量产的全流程。</li>
+                                    <li><strong>协议适配：</strong>适配并调优车载通信协议，支撑量产落地。</li>
+                                    <li><strong>底层问题排查：</strong>排查字节对齐、枚举差异、编译优化等底层问题。</li>
+                                    <li><strong>工具开发：</strong>开发可视化日志工具下位机接口，运用 C++ 面向对象、多线程、动态内存等技术。</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </section>
+
+            <!-- 项目经历 -->
+            <section class="projects">
+                <h2 class="section-title">项目经历</h2>
+                <div class="work-achievements">
+                    <div class="achievements-grid">
+                        <!-- 1. RoboMaster 工程机器人 -->
+                        <div class="achievement-item">
+                            <div class="achievement-media">
+                                <a href="https://www.bilibili.com/video/BV1xf42197Y8/" target="_blank" title="项目演示" rel="noreferrer">
+                                    <img src="./assets/images/工程机器人.gif" alt="RoboMaster 项目" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22100%22%3E%3Crect fill=%22%233498db%22 width=%22160%22 height=%22100%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22white%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2214%22%3E▶ 演示%3C/text%3E%3C/svg%3E'">
+                                </a>
+                            </div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">RoboMaster 工程机器人</div>
+                                <div class="achievement-description">
+                                    <strong>角色：嵌入式负责人、模块负责人。</strong>基于 STM32F4 自研整车电路板与 SPI2CAN 模块；在 FreeRTOS 下完成 14 路 CAN 无刷减速电机、舵机、继电器及串口外设控制；采用 C 语言订阅发布机制搭建工程框架；实现电机 PID 多环控制与 I2C 驱动 Wii 手柄。机器人具备遥控、取矿、兑矿、全向移动能力，<strong>获国家级赛事奖项。</strong>
+                                </div>
+                                <div style="margin-top: 1rem;">
+                                    <a href="https://www.bilibili.com/video/BV1xf42197Y8/" class="achievement-link" target="_blank" rel="noreferrer">观看演示</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 2. 全国大学生智能汽车竞赛 - 独轮车 -->
+                        <div class="achievement-item">
+                            <div class="achievement-media">
+                                <a href="https://www.bilibili.com/video/BV1Em421W7FZ/" target="_blank" title="项目演示" rel="noreferrer">
+                                    <img src="./assets/images/独轮车.jpg" alt="智能车演示" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22100%22%3E%3Crect fill=%22%233498db%22 width=%22160%22 height=%22100%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22white%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2214%22%3E▶ 演示%3C/text%3E%3C/svg%3E'">
+                                </a>
+                            </div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">全国大学生智能汽车竞赛 - 独轮车组</div>
+                                <div class="achievement-description">
+                                    <strong>角色：项目负责人。全国二等奖。</strong>基于英飞凌 TC264，融合摄像头、电磁、TOF、陀螺仪等传感器；编写 PID 算法实现平衡、循迹、避障、断路惯导；驱动 UART/IIC/SPI 外设；完成电机驱动、电源电路设计与调试。独轮车稳定完成全场景自动行驶。
+                                </div>
+                                <div style="margin-top: 1rem;">
+                                    <a href="https://www.bilibili.com/video/BV1Em421W7FZ/" class="achievement-link" target="_blank" rel="noreferrer">观看演示</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 3. 工程机械远程管理及安全检测系统 -->
+                        <div class="achievement-item">
+                            <div class="achievement-media">
+                                <a href="https://m.dzsc.com/video/26904.html" target="_blank" title="项目演示" rel="noreferrer">
+                                    <img src="./assets/project/engineering/cover.jpg" alt="工程机械系统" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22100%22%3E%3Crect fill=%22%23e8eef4%22 width=%22160%22 height=%22100%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22%233498db%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2212%22%3E系统%3C/text%3E%3C/svg%3E'">
+                                </a>
+                            </div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">工程机械远程管理及安全检测系统</div>
+                                <div class="achievement-description">
+                                    <strong>角色：项目负责人。嵌入式竞赛西南赛区三等奖。</strong>基于 Hi3516 + OpenHarmony SDK，通过广和通 L610 实现 4G 通信、通话、短信、定位；完成图像抓拍、语音输出、人体检测与 HTTP 数据上云。一体化智能终端成功落地。
+                                </div>
+                                <div style="margin-top: 1rem;">
+                                    <a href="https://m.dzsc.com/video/26904.html" class="achievement-link" target="_blank" rel="noreferrer">观看演示</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 4. 大学生电子设计竞赛 - 二维云台目标追踪 -->
+                        <div class="achievement-item">
+                            <div class="achievement-media">
+                                <img src="./assets/images/电赛视频.gif" alt="电赛演示" style="max-width:100%; max-height:100%; object-fit:contain; display:block;">
+                            </div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">全国大学生电子设计竞赛 - 双二维云台目标追踪</div>
+                                <div class="achievement-description">
+                                    <strong>角色：核心成员。四川省二等奖。</strong>设计并实现二维云台目标追踪系统，融合图像识别与舵机控制，实现实时目标追踪与锁定。
+                                </div>
+                                <div style="margin-top: 1rem;">
+                                    <a href="https://www.bilibili.com/video/BV1Jz4y1s7Le/" class="achievement-link" target="_blank" rel="noreferrer">B站备份链接</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 5. 水下管道巡检机器人 -->
+                        <div class="achievement-item">
+                            <div class="achievement-media">
+                                <img src="./assets/images/水下管道.jpg" alt="水下机器人" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22100%22%3E%3Crect fill=%22%233498db%22 width=%22160%22 height=%22100%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22white%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2214%22%3E机器人%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">水下管道巡检机器人（大创项目）</div>
+                                <div class="achievement-description">
+                                    <strong>角色：核心成员。省级大创优秀结题。</strong>参与设计并开发水下管道巡检机器人，申请发明专利《一种水下管道巡检机器人》。项目在大学生创新创业训练计划中获省级优秀结题。
+                                </div>
+                            </div>
+                        </div>
+                        <!-- 6. 直流无刷电机驱动设计 -->
+                        <div class="achievement-item">
+                            <div class="achievement-media">
+                                <img src="./assets/images/毕业设计_BLDC驱动.jpg" alt="无刷电机驱动" onerror="this.src='data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 width=%22160%22 height=%22100%22%3E%3Crect fill=%22%233498db%22 width=%22160%22 height=%22100%22/%3E%3Ctext x=%2250%25%22 y=%2250%25%22 fill=%22white%22 text-anchor=%22middle%22 dy=%22.3em%22 font-size=%2214%22%3EBLDC%3C/text%3E%3C/svg%3E'">
+                            </div>
+                            <div class="achievement-content">
+                                <div class="achievement-title">直流无刷电机驱动设计</div>
+                                <div class="achievement-description">
+                                    <strong>独立设计。</strong>完成直流无刷电机（BLDC）驱动电路与控制系统设计，包括三相逆变桥、PWM 调速、霍尔/无感换相、电流环与速度环 PID 控制。实现了电机的平稳启动、高效换相与宽范围调速，具备过流、过温保护功能。
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- 获奖荣誉 -->
+            <section class="awards">
+                <h2 class="section-title">获奖荣誉</h2>
+                <ul class="awards-list">
+                    <li><strong>国家级</strong> - 第二十三届 RoboMaster 机甲大师高校联盟赛步兵对抗赛 · <strong>全国一等奖</strong></li>
+                    <li><strong>国家级</strong> - 第十八届全国大学生智能汽车竞赛独轮组 · <strong>全国二等奖</strong></li>
+                    <li><strong>国家级</strong> - 第二十三届 RoboMaster 机甲大师超级对抗赛 · <strong>全国二等奖</strong></li>
+                    <li><strong>省部级</strong> - 中国大学生工程实践与创新能力大赛智能+赛道 · <strong>四川省一等奖</strong></li>
+                    <li><strong>省部级</strong> - 全国大学生电子设计竞赛 · <strong>四川省二等奖</strong></li>
+                    <li><strong>省部级</strong> - 全国大学生嵌入式芯片与系统设计竞赛 · <strong>西南赛区三等奖</strong></li>
+                    <li><strong>省部级</strong> - 大学生创新创业训练计划（水下巡检机器人）· <strong>省级优秀结题</strong></li>
+                    <li><strong>校级/工作</strong> - 校大学生电子科技协会会长 · <strong>任职评定：优秀</strong></li>
+                    <li><strong>企业/工作</strong> - 卓驭科技 · <strong>"提效能手"</strong>、<strong>"王牌攻坚团队"</strong></li>
+                </ul>
+            </section>
+
+            <!-- 页脚 -->
+            <div class="last-update">
+                <p><em>最后更新：2026 年 6 月</em></p>
+                <p><a href="./Resume.pdf" target="_blank" rel="noreferrer">下载简历（PDF）</a></p>
+                <p>© 2026 姚锦涛</p>
+            </div>
+        </div>
+    </main>
+
+    <div id="wechatModal" style="display:none; position:fixed; inset:0; background:rgba(0,0,0,0.55); z-index:9999; align-items:center; justify-content:center;" onclick="closeWechatModal()">
+        <div style="background:#fff; border-radius:10px; padding:12px; max-width:90vw; max-height:90vh;" onclick="event.stopPropagation()">
+            <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+                <strong style="font-size:14px;">微信</strong>
+                <button onclick="closeWechatModal()" style="border:none; background:transparent; font-size:18px; cursor:pointer;">×</button>
+            </div>
+            <img src="./assets/images/wechat.png" alt="微信二维码" style="max-width:80vw; max-height:75vh; display:block;">
+            <p style="margin-top:10px; text-align:center; font-size:14px; color:#333;">微信号：17752352458</p>
+        </div>
+    </div>
+
+    <script>
+      function openWechatModal() {
+        var modal = document.getElementById('wechatModal');
+        modal.style.display = 'flex';
+      }
+      function closeWechatModal() {
+        var modal = document.getElementById('wechatModal');
+        modal.style.display = 'none';
+      }
+    </script>
+</body>
+
+</html>
